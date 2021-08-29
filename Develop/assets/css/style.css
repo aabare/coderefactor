@@ -204,6 +204,13 @@ p {
     font-size: 36px;
 }
 
+.anchor {
+     display: block;
+     height: 200px;
+     margin-top: -200px; 
+     visibility: hidden;
+}
+
 .footer {
     padding: 30px;
     clear: both;
@@ -225,12 +232,14 @@ p {
 
     header h1 {
         width: 100%;
+        text-align: left;
     }
     
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
+        text-align: right;
     }
 
     header nav ul li a {
@@ -241,5 +250,28 @@ p {
 
 
 @media screen and (max-width: 575px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: left;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+        text-align: right;
+    }
+
+    header nav ul li a {
+        margin: 20px auto 20px auto;
+        font-size: 20px;
+    }
+
 
 }
