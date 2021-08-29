@@ -167,12 +167,12 @@ p {
 }
 
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    width: 100%;
+    margin: 30px auto 30px auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
 }
 
 .search-engine-optimization img {
@@ -185,10 +185,14 @@ p {
 
 .online-reputation-management img {
     max-height: 200px;
+    float: right;
+    padding: 30px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    float: left;
+    padding: 30px;
 }
 
 .search-engine-optimization h2 {
@@ -200,13 +204,11 @@ p {
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    display: flex;
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    display: flex;
 }
 
 .footer {
